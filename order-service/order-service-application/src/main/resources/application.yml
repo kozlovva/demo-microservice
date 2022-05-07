@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: '@spring.profiles.active@'
+  data:
+    mongodb:
+      auto-index-creation: true
+      database: orders
+
